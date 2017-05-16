@@ -138,6 +138,17 @@ div .grid img{
 }
 
 
+/*Javascript Styles*/
+
+.hover{
+  background-color: rgba(255,255,255,0.80);
+}
+
+.bigger{
+  width: 70px;
+  margin-left: 90px;
+}
+
 
 
 
