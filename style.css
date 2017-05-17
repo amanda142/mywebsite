@@ -64,7 +64,7 @@ a{
 
 /*About Page*/
 .about{
-  background-image: url("images/mountain.jpg");
+  background-image: url("images/foliage.jpg");
   background-repeat:no-repeat;
   background-size:cover;
 }
@@ -128,7 +128,7 @@ div .grid img{
 
 /*Contact Page*/
 .contact{
-  background-image: url("images/sailboat.jpg");
+  background-image: url("images/stars.jpg");
   background-repeat:no-repeat;
   background-size:cover;
 }
