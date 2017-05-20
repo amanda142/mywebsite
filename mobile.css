@@ -1,0 +1,150 @@
+/* Portrait Mobile Stles*/
+
+@media (min-width: 320px){
+
+	.welcome{
+		background-image: url(images/iceland.jpg);
+		background-size: 180%;
+		overflow: scroll;
+	}
+	
+	header{
+		font-size: 60px;
+  		width: 90%;
+  		padding:5px;
+  		margin:20px;
+  		margin-top: 40px;
+  		background:rgba(255,255,255,0.5);
+	}
+
+	.lighter{
+		background: rgba(255,255,255,0.3);
+	}
+
+	header img{
+  		width: 20px;
+  		margin: 10px;
+  		margin-bottom: 8px;
+	}
+
+	.dropdown{
+		position: relative;
+		display: inline-block;
+	}
+
+	.dropmenu{
+		display: none;
+		position: absolute;
+		background-color: rgba(255,255,255,0.9);
+		border-radius: 8px;
+		min-width: 50px;
+		z-index: 1;
+		font-size: 20px;
+		font-family:'open sans';
+		line-height: 1.3;
+		text-align:right;
+		right: 0px;
+		padding: 10px;
+		margin-top: 20px;
+	}
+
+	.dropmenu a{
+		color: black;
+		text-decoration: none;
+		display: block;
+	}
+
+	.dropmenu a:hover{
+		color: white;
+	}
+
+	.show{
+		display: block;
+	}
+
+	ul{
+		display: none;
+	}
+
+	.footer{
+		display: none;
+	}
+
+/*About Page*/
+
+	.about{
+		background-size:200%;
+	}
+	
+	.background{
+  		width: 90%;
+  		padding: 5px;
+  		background:rgba(255,255,255,0.50);
+  		font-size: 14px;
+  		margin: 20px;
+  		align-self: center;
+  		padding: 15px;
+  		line-height: 1.2;
+	}
+
+/*Contact Page*/
+
+	.contact{
+		background-image: url(images/iceland.jpg);
+		background-size: 180%;
+	}
+
+/*Photography Page*/
+
+	aside{
+		display: none;
+	}
+
+	#photography{
+		font-size: 60px;
+  		font-weight:700;
+  		width: 90%;
+  		padding:5px;
+  		margin:20px;
+  		margin-top: 40px;
+  		float: right;
+	}
+
+	.container{
+		padding: 10px;
+	}
+
+	div .grid img{
+		width: 42%;
+		height: 130px;
+		margin: 10px;
+	}
+
+}
+
+/* Landscape Mobile Styles*/
+
+@media (min-width: 550px){
+
+	.welcome{
+		background-size: 100%;
+		height: 600px;
+	}
+
+	.about{
+		background-size: 100%;
+		height: 500px;
+	}
+
+	.contact{
+		background-size: 100%;
+		height: 600px;
+	}
+
+	div .grid img{
+		width: 240px;
+		height: 240px;
+		margin: 10px;
+	}
+
+}

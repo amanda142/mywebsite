@@ -22,14 +22,9 @@ $(document).ready(function() {
 		$(this).removeClass('bigger');
 	})
 
-
-	//Outline photo in grid
-	$('.grid a img').hover(function(){
-		$('.grid a img').removeClass('outline');
-		$(this).addClass('outline');
-	})
-	$('.grid a img').mouseleave(function(){
-		$(this).removeClass('outline');
+	//Show hamburger menu items
+	$('div .dropbtn').click(function(){
+		$('.dropmenu').toggleClass('show');
 	})
 
 });

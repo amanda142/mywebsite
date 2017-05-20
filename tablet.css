@@ -1,0 +1,81 @@
+/* Tablet Portrait Styles */
+
+@media (min-width: 768px){
+
+/*Welcome Page*/
+	.welcome{
+		background-image: url("images/window.jpg");
+  		background-size: 150%;
+	}
+
+	header{
+		width: 50%;
+  		padding:20px;
+  		float:right;
+  		background:rgba(255,255,255,0.5);
+  		font-size: 80px;
+  		margin-top: 100px;
+	}
+
+	span{
+		display:none;
+	}
+
+	.dropbtn{
+		display: none;
+	}
+
+	ul{
+		display: block;
+  		list-style:none;
+  		font-size:50px;
+  		font-weight:700;
+  		padding-left: 10px;
+  		text-align:center;
+  		width: 30%;
+  		line-height:1.5;
+  		margin-top:300px;
+  		float:left;
+	}
+
+	li{
+  		padding:14px;
+		background:rgba(255,255,255,0.6);
+		border-radius:8px;
+		margin:10px;
+	}
+
+	.emptyspace{
+  		float: right;
+  		width: 100%;
+  		height: 200px;
+	}
+
+
+	.footer{
+		display: block;
+  		background: rgba(0,0,0,0.8);
+  		color:white;
+  		float: right;
+  		width: 100%;
+  		height: 100px;
+  		text-align: center;
+  		font-size: 30px;
+  		padding-top: 40px;
+	}
+
+ /*About Page*/
+ 	
+
+}
+
+
+/* Tablet Landscape Styles */
+
+@media (min-width: 1024px){
+
+
+
+
+
+}

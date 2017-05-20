@@ -1,17 +1,31 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Photography</title>
     <link href="https://cdn.rawgit.com/noelboss/featherlight/1.7.5/release/featherlight.min.css" type="text/css" rel="stylesheet" />
     <link rel="stylesheet" type="text/css" href="reset.css">
     <link href="https://fonts.googleapis.com/css?family=Amatic+SC:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="mobile.css">
+    <link rel="stylesheet" type="text/css" href="tablet.css">
+    <link rel="stylesheet" type="text/css" href="desktop.css">
   </head>
 
   <body class= "photos">
     <div class= "clearfix">
       <aside><a href=index.html target="_self"><img src="images/orange.png"></a></aside>
-      <header id="photography">Photography</header>
+      <header id="photography">Photography      
+        <div class="dropdown">
+          <div class="dropbtn"><a href=# target="_self"><img src="images/hamburger.png"></a></div>
+            <div class="dropmenu">
+              <a href="index.html" target="_self">home</a>
+              <a href="about.html" target="_self">about</a>
+              <a href="contact.html" target="_self">contact</a>
+            </div>
+        </div>
+      </header>
     </div>
 
     <div class="clearfix container">
