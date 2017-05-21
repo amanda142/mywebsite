@@ -32,34 +32,23 @@
 		background-size:cover;
 	}
 
-	.background{
-  		width: 60%;
-  		padding:50px;
-  		background:rgba(255,255,255,0.70);
-  		font-size:18px;
-  		line-height:1.5;
-  		float:right;
-  		margin:30px;
-  		margin-top:40px;
-	}
-
 /*Contact Page*/
 
 	.contact{
-		 background-image: url("images/stars.jpg");
 		 background-size:cover;
 	}
 
 	#info{
-  		width: 50%;
+  		width: 60%;
 	}
 
 /*Photography Page*/
 
 	aside{
-  		float:left;
   		width:50%;
+  		height: 80px;
 	}
+
 	aside img{
   		width:60px;
   		margin-left: 100px;
@@ -68,8 +57,7 @@
 
 	#photography{
 		font-size:100px;
-		text-align:right;
-  		margin:auto;
+		margin: auto;
   		padding:40px;
   		padding-right:200px;
   		width: 50%;
