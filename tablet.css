@@ -96,6 +96,7 @@
 		display: block;
   		float:left;
   		width:30%;
+  		height: 80px;
 	}
 
 	aside img{
@@ -121,13 +122,3 @@
 	}
 }
 
-
-/* Tablet Landscape Styles */
-
-@media (min-width: 1024px){
-
-
-
-
-
-}
